@@ -14,7 +14,7 @@
 * Опыт проведения A/B тестов
 
 *   ✉️ Мои телеграм для связи: [https://t.me/magicalai3](mailto:https://t.me/magicalai3)
-*   ✉️ Моя электронная почта: imagical93@outlook.com
+*   ✉ моя электронная почта: imagical93@outlook.com
 
 
 Обо мне и моем пути к анализу данных:
