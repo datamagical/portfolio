@@ -19,6 +19,9 @@
 ![email](https://github.com/datamagical/portfolio/assets/160595249/ff959785-da3e-453a-b76d-cb3b5a77127d)
   моя электронная почта: imagical93@outlook.com
 
+<img src="https://example.com/path/to/icon.png" width="100" height="100">
+
+
 
 Обо мне и моем пути к анализу данных:
 --------------------------
