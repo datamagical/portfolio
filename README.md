@@ -17,6 +17,7 @@
  мои телеграм для связи: [https://t.me/magicalai3](mailto:https://t.me/magicalai3)
 
 
+
 ![email](https://github.com/datamagical/portfolio/assets/160595249/ff959785-da3e-453a-b76d-cb3b5a77127d)
   моя электронная почта: imagical93@outlook.com
 
