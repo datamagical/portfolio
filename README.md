@@ -11,7 +11,7 @@
 * SQL для работы с аналитическими базами данных (PostgreSQL, ClickHouse)
 * Знание статистики и теории вероятности
 * Навыки визуализации данных и работы с BI-системами (SuperSet, PostgreSQL)
-* Опыт проведения A/B тестов
+* Опыт проведения A/B тестов.
 
 ![Иконка](https://example.com/path/to/icon.png)
 мои телеграм для связи: [https://t.me/magicalai3](mailto:https://t.me/magicalai3)
