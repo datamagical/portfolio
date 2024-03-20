@@ -13,7 +13,6 @@
 * Навыки визуализации данных и работы с BI-системами (SuperSet, PostgreSQL)
 * Опыт проведения A/B тестов.
 
-![Иконка](https://example.com/path/to/icon.png)
 мои телеграм для связи: [https://t.me/magicalai3](mailto:https://t.me/magicalai3)
 
 моя электронная почта: imagical93@outlook.com
