@@ -6,8 +6,8 @@ Python, библиотеки pandas, numpy, matplotlib, seaborn
 
 ## Примеры
 Некоторые распределения, которые присылает в случае нахождения предупреждания telegram bot
-[Количество уникальных сообщений](https://github.com/datamagical/portfolio/blob/main/telegram_bot_alert/photo_2024-03-20_21-23-00.jpg) 
-[Количество лайков](https://github.com/datamagical/portfolio/blob/main/telegram_bot_alert/photo_2024-03-20_21-23-08.jpg)
+![Количество уникальных сообщений](https://github.com/datamagical/portfolio/blob/main/telegram_bot_alert/photo_2024-03-20_21-23-00.jpg) 
+![Количество лайков](https://github.com/datamagical/portfolio/blob/main/telegram_bot_alert/photo_2024-03-20_21-23-08.jpg)
 
 ## Контакты
 Моя рабочая электронная почта: imagical93@outlook.com.
