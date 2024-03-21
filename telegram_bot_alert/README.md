@@ -5,7 +5,7 @@
 Python, библиотеки pandas, numpy, matplotlib, seaborn
 
 ## Примеры
-Некоторые распределения, которые присылает в случае нахождения предупреждания telegram bot
+В случае пересечения верхней или нижней границы рассматрвиаемой метрики, telegam bot присылает график распределения. Ниже продемонстрированы некоторые графики, которые присылает telegram bot
 ![Количество уникальных сообщений](https://github.com/datamagical/portfolio/blob/main/telegram_bot_alert/photo_2024-03-20_21-23-00.jpg) 
 ![Количество лайков](https://github.com/datamagical/portfolio/blob/main/telegram_bot_alert/photo_2024-03-20_21-23-08.jpg)
 
