@@ -34,6 +34,19 @@
 По странам: Понимаем географическое распределение нашей аудитории.
 По возрасту и полу: Изучаем возрастные группы и пол наших пользователей, чтобы адаптировать контент и маркетинг под целевую аудиторию.
 
+P.S. для данного кода потребовалось написание дополнительного SQL запроса в ClickHouse. Данный код фильтрует всех пользователей на возрастные группы, также заменяет значения 0 и 1 в столбце gender на male и female
+
+```sql
+SELECT distinct user_id, 
+       age,
+       time,
+       CASE WHEN age between 0 AND 18 THEN '0-18'
+       WHEN age between 18 AND 30 THEN '19-30'
+       WHEN age between 30 AND 50 THEN '31-50'
+       ELSE '50+' END as agegroup,
+       if(gender = 0, 'male', 'female') as gender_label
+from simulator_20240120.feed_actions;
+
 Фрагмент дашборда по странам полу и возрастам
 
 ![Логотип](https://github.com/datamagical/portfolio/blob/main/Dashboards/8.jpg?raw=true)
