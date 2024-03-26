@@ -52,7 +52,7 @@ from feed_actions;
 
 ![Логотип](https://github.com/datamagical/portfolio/blob/main/Dashboards/8.jpg?raw=true)
 ## Немного CSS:
-'''css
+```css
 /* Основные стили текста для улучшения читабельности */
 body, .dashboard-component {
     font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -154,7 +154,7 @@ a:hover {
     visibility: visible;
     opacity: 1;
 }
-'''
+```
 ## Навигация: 
 Используются вкладки и выпадающие меню для переключения между различными показателями и периодами времени.
 ## Глубокий Анализ:
