@@ -95,21 +95,6 @@ h1, h2, h3, h4 {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-/* Стилизация таблиц для лучшей читабельности */
-.table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.table th, .table td {
-    text-align: left;
-    padding: 8px;
-    border-bottom: 1px solid #eee;
-}
-
-.table tr:nth-child(even) {
-    background-color: #f8f8f8;
-}
 
 /* Персонализированные стили для форм */
 input[type="text"], select, textarea {
@@ -132,28 +117,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Пользовательские тултипы для дополнительной информации */
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -60px;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
-}
 ```
 ## Навигация: 
 Используются вкладки и выпадающие меню для переключения между различными показателями и периодами времени.
