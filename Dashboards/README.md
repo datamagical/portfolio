@@ -45,13 +45,116 @@ SELECT distinct user_id,
        WHEN age between 30 AND 50 THEN '31-50'
        ELSE '50+' END as agegroup,
        if(gender = 0, 'male', 'female') as gender_label
-from simulator_20240120.feed_actions;
+from feed_actions;
 ```
 
 Фрагмент дашборда по странам полу и возрастам
 
 ![Логотип](https://github.com/datamagical/portfolio/blob/main/Dashboards/8.jpg?raw=true)
+## Немного CSS:
+'''css
+/* Основные стили текста для улучшения читабельности */
+body, .dashboard-component {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
 
+/* Стилизация заголовков для привлечения внимания */
+h1, h2, h3, h4 {
+    color: #007bff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Улучшение внешнего вида кнопок */
+.button, .btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover, .btn:hover {
+    background-color: #218838;
+}
+
+/* Стилизация карточек дашборда */
+.dashboard-component-chart-holder {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.dashboard-component-chart-holder:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Стилизация таблиц для лучшей читабельности */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+/* Персонализированные стили для форм */
+input[type="text"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Оформление ссылок для улучшения интерактивности */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Пользовательские тултипы для дополнительной информации */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+'''
 ## Навигация: 
 Используются вкладки и выпадающие меню для переключения между различными показателями и периодами времени.
 ## Глубокий Анализ:
