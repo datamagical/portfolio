@@ -46,6 +46,7 @@ SELECT distinct user_id,
        ELSE '50+' END as agegroup,
        if(gender = 0, 'male', 'female') as gender_label
 from simulator_20240120.feed_actions;
+```
 
 Фрагмент дашборда по странам полу и возрастам
 
