@@ -34,4 +34,8 @@
 
 ![](https://github.com/datamagical/portfolio/blob/main/The_lord_of_the_rings/images/1-2.png)
 
+График плотность также подтверждает вышеуказанную мысль.
+
+Остальное в проекте.
+
 
