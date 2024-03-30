@@ -36,6 +36,6 @@
 
 График плотности также **подтверждает вышеуказанную мысль.**
 
-Остальное в проекте.
+Остальное в проекте ![Ссылка на ноутбук](https://github.com/datamagical/portfolio/blob/main/The_lord_of_the_rings/TheLordoftheRings.ipynb)
 
 
