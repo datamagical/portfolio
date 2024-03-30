@@ -28,6 +28,6 @@
 * Промежуточные выводы
 
 ### Вот некоторые примеры графиков из проекта:
-(https://github.com/datamagical/portfolio/blob/main/The_lord_of_the_rings/images/1-1.png?raw=true)
+![](https://github.com/datamagical/portfolio/blob/main/The_lord_of_the_rings/images/1-1.png?raw=true)
 
 
